@@ -1,4 +1,64 @@
+body {
+    margin: 0 auto;
+}
+
+
 section.top-page {
-    background: url(../Image/banniere.jpeg) no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #f5f5dc, #ffd700);
     background-size: cover;
+    height: 70vh;
+    padding: 25px;
+
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+    padding: 5px;
+
+}
+
+/* page de bienvenue (landing page) */
+
+
+
+.big-title {
+    font-size: 80px;
+    padding: 20px 50px;
+    color: #5e0a16;
+}
+
+a.scroll {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fleche-bas {
+    display: flex;
+    height: 15px;
+}
+
+/* menu de navogation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 30px;
+
+}
+
+nav.nav li {
+    color: red;
 }
