@@ -2,19 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Tartare Pong</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/75a820af9a.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Tartare Pong</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/75a820af9a.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -28,12 +29,51 @@
 
       <nav>
         <ul class="nav gap-3">
-          <li class="nav-item"><a href="#" class="nav-link text-danger">Le Tartare Pong</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-danger">Le Club</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-danger">Compétition</a></li>
+
+          <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+              class="nav-link text-danger dropdown-toggle">
+              Le Tartare Pong
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Règlement</a></li>
+              <li><a class="dropdown-item" href="#">Stratégie de jeu</a></li>
+              <li><a class="dropdown-item" href="#">Le matériel officiel</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+              class="nav-link text-danger dropdown-toggle">
+              Le Club
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Histoire</a></li>
+              <li><a class="dropdown-item" href="#">On s'entraine ?</a></li>
+              <li><a class="dropdown-item" href="#">News</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown"
+              class="nav-link text-danger dropdown-toggle">
+              Compétition
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Comment participer ?</a></li>
+              <li><a class="dropdown-item" href="#">Lieux affilié à la fédération</a></li>
+            </ul>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link text-danger">Boutique</a></li>
           <li class="nav-item"><a href="#" class="nav-link text-danger">Application</a></li>
-          <li class="nav-item"><a href="#" class="nav-link text-danger">Rejoindre</a></li>
+
+          <li class="nav-item dropdown"><a data-bs-toggle="dropdown" href="#" class="nav-link text-danger dropdown-toggle">
+              Rejoindre
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Les supporters</a></li>
+              <li><a class="dropdown-item" href="#">Les joueurs</a></li>
+              <li><a class="dropdown-item" href="#">Le corps arbitral</a></li>
+              <li><a class="dropdown-item" href="#">L'organisation</a></li>
+            </ul>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link text-danger">Se connecter</a></li>
           <li class="nav-item"><a href="#" class="nav-link text-danger">Contact</a></li>
         </ul>
@@ -67,7 +107,7 @@
 
   <!-- SECTION : sponsor -->
   <section class="sponsor py-5 bg-light text-center">
-    <p>Image de sous (sponsor)</p>
+    <p>Image de (sponsor)</p>
   </section>
 
   <!-- SECTION : évènements -->
@@ -86,6 +126,8 @@
       </div>
     </div>
   </section>
+
+
 
 </body>
 

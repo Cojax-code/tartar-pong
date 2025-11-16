@@ -14,6 +14,12 @@ section.top-page {
     position: relative;  
     
 }
+header.header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to bottom,#f5f5dc, #ffd700);
+}
 
 .logo{
     width: 150px;
